@@ -36,7 +36,7 @@ end
 
 def reduce_to_all_true(source_array)
   
-source_array.reduce { |beTrue, beFalse| beTrue && beFalse}
+source_array.all?
 
 end
 
